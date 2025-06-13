@@ -1,0 +1,165 @@
+/* General */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+header h2 {
+  margin: 0.2rem 0;
+  font-size: 2rem;
+}
+
+header p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+header img {
+  margin-top: 1rem;
+  border-radius: 60%;
+  width: 190px;
+  height: 300px;
+  object-fit: contain;
+}
+
+/* Navegación */
+nav {
+  text-align: center;
+  background-color: #fff;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #0077cc;
+}
+
+/* Secciones */
+section, h3, h5 {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fafafa;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 0.8rem;
+  text-align: left;
+}
+
+tfoot td {
+  background-color: #f0f0f0;
+  color: #555;
+  font-style: italic;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 0.8rem 0 0.3rem;
+}
+
+input, textarea, select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+/* Multimedia */
+audio {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Lista de descripción */
+dl {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  section {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+}
